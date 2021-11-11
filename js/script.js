@@ -1,15 +1,15 @@
- var tweetURL = "";
-  var tempList = "";
-  var randomQuote = "";
-  var html = "";
-  var quoteBody = document.querySelector("#quote-body");
-  var quote = document.querySelector("#quote");
-  var button = document.querySelector("#quote-btn");
-  var share = document.querySelector("#share");
+ let tweetURL = "";
+  let tempList = "";
+  let randomQuote = "";
+  let html = "";
+  let quoteBody = document.querySelector("#quote-body");
+  let quote = document.querySelector("#quote");
+  let button = document.querySelector("#quote-btn");
+  let share = document.querySelector("#share");
   
   
   // Object with quotes & authors
-  var quotes = [
+  let quotes = [
    { 
     text: "Design is not for philosophy it's for life.",
     author: "- Issey Miyake -"
